@@ -36,4 +36,12 @@ public class ScenesController : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+    /// <summary>
+    /// Метод выхода из игры
+    /// </summary>
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
 }

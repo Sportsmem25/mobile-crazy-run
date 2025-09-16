@@ -230,7 +230,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iphan: {fileID: 976926689}
-  ballSpeed: 0.15
+  ballSpeed: 0.8
 --- !u!4 &229416630
 Transform:
   m_ObjectHideFlags: 0
