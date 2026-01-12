@@ -6,7 +6,7 @@ public class UIController : MonoBehaviour
     [SerializeField] private GameObject losePanel;
     [SerializeField] private GameObject pauseButton;
     [SerializeField] private TimerController timerCon;
-    [SerializeField] private FinishTrigger ft;
+    [SerializeField] private FinishTrigger finishTrigger;
 
     void Update()
     {
@@ -16,7 +16,7 @@ public class UIController : MonoBehaviour
             timerCon.IsPaused();
             losePanel.SetActive(true);
         }
-        if (ft._isFinsh == true)
+        if (finishTrigger.IsFinsh == true)
         {
             timerCon.IsPaused();
             pauseButton.SetActive(false);

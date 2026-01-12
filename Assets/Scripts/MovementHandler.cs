@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MovementHandler : MonoBehaviour
 {
-    public InputHandler iphan;
+    [SerializeField] private InputHandler iphan;
     [SerializeField] private float ballSpeed;
 
     void Update()

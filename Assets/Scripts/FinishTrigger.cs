@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class FinishTrigger : MonoBehaviour
 {
-    public bool _isFinsh = false;
+    public bool IsFinsh = false;
 
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Finish"))
+        if(other.gameObject.layer == LayerMask.NameToLayer("Finish"))
         {
-            _isFinsh = true;
+            IsFinsh = true;
         }
     }
 }

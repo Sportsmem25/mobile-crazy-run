@@ -1905,7 +1905,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &250374496
 PrefabInstance:
@@ -5703,7 +5703,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1015402974
 PrefabInstance:
@@ -6507,7 +6507,7 @@ PrefabInstance:
     - target: {fileID: 5980851452634645872, guid: d15868f338e45314898bd0871e9f3d9b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5980851452634645872, guid: d15868f338e45314898bd0871e9f3d9b,
         type: 3}
@@ -11007,6 +11007,11 @@ PrefabInstance:
       propertyPath: timerCon
       value: 
       objectReference: {fileID: 2064215619}
+    - target: {fileID: 4725758151489879067, guid: fcb9b482f29a3474d9c84d696451cca0,
+        type: 3}
+      propertyPath: finishTrigger
+      value: 
+      objectReference: {fileID: 198421367}
     - target: {fileID: 4725758151489880033, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
       propertyPath: m_Name
@@ -11030,7 +11035,7 @@ PrefabInstance:
     - target: {fileID: 4725758151489880037, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4725758151489880037, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
@@ -11799,8 +11804,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd3114b963bcce42a0e1a0191a5a607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mh: {fileID: 229416629}
   timer: 90
+  mh: {fileID: 229416629}
   timerText: {fileID: 2010345143}
 --- !u!1001 &2069380027
 PrefabInstance:

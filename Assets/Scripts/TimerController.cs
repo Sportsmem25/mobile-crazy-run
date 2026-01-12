@@ -4,8 +4,8 @@ using UnityEngine.UI;
 
 public class TimerController : MonoBehaviour
 {
-    public MovementHandler mh;
-    public float timer;
+    public float timer = 60f;
+    [SerializeField] private MovementHandler mh;
     [SerializeField] private Text timerText;
     private bool _paused = true;
     

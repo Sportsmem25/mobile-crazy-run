@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 159112748}
   m_Layer: 0
-  m_Name: Labyrinth
+  m_Name: Labrinth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -184,7 +184,7 @@ Transform:
   - {fileID: 8501405821490185901}
   - {fileID: 2067930094}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &195305058
 MeshCollider:
@@ -244,7 +244,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &562416866 stripped
 MonoBehaviour:
@@ -406,7 +406,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1046353259
 GameObject:
@@ -474,7 +474,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1196916137 stripped
 MonoBehaviour:
@@ -585,8 +585,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcd3114b963bcce42a0e1a0191a5a607, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mh: {fileID: 229416629}
   timer: 60
+  mh: {fileID: 229416629}
   timerText: {fileID: 562416866}
 --- !u!4 &2067930094 stripped
 Transform:
@@ -2111,6 +2111,11 @@ PrefabInstance:
       propertyPath: timerCon
       value: 
       objectReference: {fileID: 2064215619}
+    - target: {fileID: 4725758151489879067, guid: fcb9b482f29a3474d9c84d696451cca0,
+        type: 3}
+      propertyPath: finishTrigger
+      value: 
+      objectReference: {fileID: 976630647}
     - target: {fileID: 4725758151489880033, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
       propertyPath: m_Name
@@ -2134,7 +2139,7 @@ PrefabInstance:
     - target: {fileID: 4725758151489880037, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4725758151489880037, guid: fcb9b482f29a3474d9c84d696451cca0,
         type: 3}
@@ -2723,7 +2728,7 @@ PrefabInstance:
     - target: {fileID: 5980851452634645872, guid: d15868f338e45314898bd0871e9f3d9b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5980851452634645872, guid: d15868f338e45314898bd0871e9f3d9b,
         type: 3}

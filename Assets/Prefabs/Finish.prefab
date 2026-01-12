@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4993818190910275731}
   - component: {fileID: 4993818190910275730}
   - component: {fileID: 4993818190910275729}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FinishTrigger
   m_TagString: Finish
   m_Icon: {fileID: 0}
@@ -63,7 +63,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4993818191255943194}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Finish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 4993818192178177395}
   - component: {fileID: 4993818192178177394}
   - component: {fileID: 4993818192178177393}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FinishLine
   m_TagString: Untagged
   m_Icon: {fileID: 0}

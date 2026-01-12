@@ -2,12 +2,6 @@ using UnityEngine;
 
 public class InputHandler : MonoBehaviour
 {
-
-    private void Update()
-    {
-        Debug.Log(GetTouchDeltaPosition() + "Delta position");
-    }
-
     public bool IsTouchOnScreen()
     {
         if (Input.touchCount > 0) return true;
@@ -22,5 +16,4 @@ public class InputHandler : MonoBehaviour
         }
         return Vector2.zero;
     }
-    
 }
